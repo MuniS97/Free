@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="w-full h-screen bg-[url('/images/big-main-bg.png')] bg-cover">
         <Header />
-        <div className="px-5 sm:px-[80px] md:px-[135px]">
+        <div className="w-full m-auto max-w-[1570px] px-5 sm:px-[80px] md:px-[135px]">
           {/* Main text block */}
           <div className="flex flex-col gap-5 items-start justify-start pt-[18%]">
             <h1 className="font-normal leading-[55px] text-[55px] max-w-[650px]">
@@ -27,7 +27,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="px-5 sm:px-[80px] md:px-[135px]">
+
+      {/* container */}
+      <div className="w-full m-auto max-w-[1570px] px-5 sm:px-[80px] md:px-[135px]">
         {/* Section about custom text */}
         <div className="w-full flex flex-col items-start justify-center gap-5 pt-[50px] pb-[100px]">
           <h2 className="text-4xl font-medium">Что такое фирменный стиль</h2>
@@ -66,7 +68,9 @@ function App() {
           <div className="flex justify-between items-start gap-5">
             <div className="flex items-start justify-start gap-2 max-w-[250px]">
               <h5 className="text-[55px] leading-[55px] font-medium">1</h5>
-              <p className="text-lg leading-[25px] font-medium pt-[25px]">Название <br /> компании</p>
+              <p className="text-lg leading-[25px] font-medium pt-[25px]">
+                Название <br /> компании
+              </p>
             </div>
             <div className="flex items-start justify-start gap-2 max-w-[250px]">
               <h5 className="text-[55px] leading-[55px] font-medium">2</h5>
@@ -77,21 +81,25 @@ function App() {
             <div className="flex items-start justify-start gap-2 max-w-[250px]">
               <h5 className="text-[55px] leading-[55px] font-medium">3</h5>
               <p className="text-lg leading-[25px] font-medium pt-[25px]">
-                Фирменные <br /> цвета всей <br /> коммуникации <br /> (онлайн и <br /> оффлайн)
+                Фирменные <br /> цвета всей <br /> коммуникации <br /> (онлайн и{" "}
+                <br /> оффлайн)
               </p>
             </div>
             <div className="flex items-start justify-start gap-2 max-w-[250px]">
               <h5 className="text-[55px] leading-[55px] font-medium">4</h5>
-              <p className="text-lg leading-[25px] font-medium pt-[25px]">Шрифт</p>
+              <p className="text-lg leading-[25px] font-medium pt-[25px]">
+                Шрифт
+              </p>
             </div>
             <div className="flex items-start justify-start gap-2 max-w-[400px]">
               <h5 className="text-[55px] leading-[55px] font-medium">5</h5>
               <p className="text-lg leading-[25px] font-medium pt-[25px]">
-                Носители <br /> фирменного <br /> стиля <br /> <br /> <span className="leading-[22px]">
-                Этот набор варьируется в
-                зависимости от нужд и потребностей компании: визитные карточки,
-                фирменные бланки и прочая деловая документация, упаковка,
-                сувенирная продукция, брендинг автотранспорта.
+                Носители <br /> фирменного <br /> стиля <br /> <br />{" "}
+                <span className="leading-[22px]">
+                  Этот набор варьируется в зависимости от нужд и потребностей
+                  компании: визитные карточки, фирменные бланки и прочая деловая
+                  документация, упаковка, сувенирная продукция, брендинг
+                  автотранспорта.
                 </span>
               </p>
             </div>
@@ -100,13 +108,44 @@ function App() {
         {/* Section how much does it cost to make own brand logo and title */}
         <div className="flex items-end justify-center gap-[50px] py-[100px]">
           <div className="flex flex-col items-start justify-start gap-5 max-w-[400px]">
-            <p className="text-lg leading-[25px] font-medium">Каждая задача по разработке фирменного стиля уникальна для нас — это новый вызов и новые эмоции. Мы принципиально не предлагаем вам стандартизированные пакеты “эконом”, “стандрат”, или “премиум”, мы не штампуем, мы - создаем.</p>
-            <p className="text-lg leading-[25px] font-medium">Стоимость разработки фирменного стиля в нашем агентстве начинается от 120 000 руб., финальную планку без брифинга определить невозможно - давайте созвонимся и обсудим ваш проект! </p>
-            <p className="text-lg leading-[25px] font-medium text-white p-[5px] bg-[#2B59C3] rounded-sm">Каждый клиент нашего агентства получает приятный бонус на финише проекта, о котором мы расскажем ниже ▼</p>
+            <p className="text-lg leading-[25px] font-medium">
+              Каждая задача по разработке фирменного стиля уникальна для нас —
+              это новый вызов и новые эмоции. Мы принципиально не предлагаем вам
+              стандартизированные пакеты “эконом”, “стандрат”, или “премиум”, мы
+              не штампуем, мы - создаем.
+            </p>
+            <p className="text-lg leading-[25px] font-medium">
+              Стоимость разработки фирменного стиля в нашем агентстве начинается
+              от 120 000 руб., финальную планку без брифинга определить
+              невозможно - давайте созвонимся и обсудим ваш проект!{" "}
+            </p>
+            <p className="text-lg leading-[25px] font-medium text-white p-[5px] bg-[#2B59C3] rounded-sm">
+              Каждый клиент нашего агентства получает приятный бонус на финише
+              проекта, о котором мы расскажем ниже ▼
+            </p>
           </div>
           <div className="flex flex-col items-start justify-start gap-[15px]">
-            <h2 className="font-medium text-4xl">Сколько стоит фирменный стиль?</h2>
-            <img className="w-full max-w-[630px] h-full" src="/images/section-3.png" alt="examples-of-logos" />
+            <h2 className="font-medium text-4xl">
+              Сколько стоит фирменный стиль?
+            </h2>
+            <img
+              className="w-full max-w-[630px] h-full"
+              src="/images/section-3.png"
+              alt="examples-of-logos"
+            />
+          </div>
+        </div>
+        {/* Section Example 1 - Amperia */}
+        <div className="flex flex-col justify-start item-start gap-[40px]">
+          <img className="w-full max-w-[1100px] h-full" src="/images/section-4.png" alt="Amperia design" />
+          <div className="flex justify-start items-start gap-[50px]">
+            <div className="flex flex-col justify-start items-start gap-2">
+              <h3 className="text-[55px] leading-[55px] font-medium">Amperia</h3>
+              <p className="text-lg font-medium">
+                Бранд красивых сувениров <br />и подарков для дома
+              </p>
+            </div>
+            <Button className="rounded-[40px]">Смотреть проект</Button>
           </div>
         </div>
       </div>
