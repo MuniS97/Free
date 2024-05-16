@@ -17,10 +17,18 @@ function App() {
               Разработаем в срок от 10-ти дней
             </p>
             <div className="flex items-center gap-5 pt-[20px]">
-              <Button variant="outline" size="lg"  className="border-black rounded-[40px] text-sm font-medium">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-black rounded-[40px] text-sm font-medium"
+              >
                 Портфолио
               </Button>
-              <Button variant="outline" size="lg"  className="border-black rounded-[40px] text-sm font-medium">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-black rounded-[40px] text-sm font-medium"
+              >
                 Оставить заявку
               </Button>
             </div>
@@ -151,7 +159,9 @@ function App() {
                 Бранд красивых сувениров <br />и подарков для дома
               </p>
             </div>
-            <Button variant="outline" className="border-black rounded-[40px]">Смотреть проект</Button>
+            <Button variant="outline" className="border-black rounded-[40px]">
+              Смотреть проект
+            </Button>
           </div>
         </div>
         {/* Section Example 2 - AQ.Lifecare */}
@@ -171,7 +181,9 @@ function App() {
                 внутривенной медицины
               </p>
             </div>
-            <Button variant="outline" className="border-black rounded-[40px]">Смотреть проект</Button>
+            <Button variant="outline" className="border-black rounded-[40px]">
+              Смотреть проект
+            </Button>
           </div>
         </div>
         {/* Section Example 3 - Vilate */}
@@ -189,7 +201,9 @@ function App() {
                 вкусных соусов
               </p>
             </div>
-            <Button variant="outline" className="border-black rounded-[40px]">Смотреть проект</Button>
+            <Button variant="outline" className="border-black rounded-[40px]">
+              Смотреть проект
+            </Button>
           </div>
         </div>
         {/* Section Example 4 - Coral Black */}
@@ -209,7 +223,9 @@ function App() {
                 инторпритации
               </p>
             </div>
-            <Button variant="outline" className="border-black rounded-[40px]">Смотреть проект</Button>
+            <Button variant="outline" className="border-black rounded-[40px]">
+              Смотреть проект
+            </Button>
           </div>
         </div>
         {/* Show more examples div */}
