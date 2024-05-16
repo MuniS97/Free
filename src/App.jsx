@@ -17,10 +17,10 @@ function App() {
               Разработаем в срок от 10-ти дней
             </p>
             <div className="flex items-center gap-5 pt-[20px]">
-              <Button size="lg" className="rounded-[40px] text-sm font-medium">
+              <Button variant="outline" size="lg"  className="border-black rounded-[40px] text-sm font-medium">
                 Портфолио
               </Button>
-              <Button size="lg" className="rounded-[40px] text-sm font-medium">
+              <Button variant="outline" size="lg"  className="border-black rounded-[40px] text-sm font-medium">
                 Оставить заявку
               </Button>
             </div>
@@ -31,7 +31,7 @@ function App() {
       {/* container */}
       <div className="w-full m-auto max-w-[1570px] px-5 sm:px-[80px] md:px-[135px]">
         {/* Section about custom text */}
-        <div className="w-full flex flex-col items-start justify-center gap-5 pt-[50px] pb-[100px]">
+        <div className="w-full flex flex-col items-start justify-between gap-5 pt-[50px] pb-[100px]">
           <h2 className="text-4xl font-medium">Что такое фирменный стиль</h2>
           <div className="w-full flex items-center gap-[30px]">
             <img
@@ -60,7 +60,7 @@ function App() {
           </div>
         </div>
         {/* Section with steps for make brand */}
-        <div className="w-full flex flex-col items-start justify-center gap-[40px]">
+        <div className="w-full flex flex-col items-start justify-between gap-[40px]">
           <h2 className="text-[50px] leading-[55px] font-medium">
             Название и логотип – важные составляющие фирменного стиля, но на
             этом всё только начинается. Ниже основные элементы:
@@ -106,7 +106,7 @@ function App() {
           </div>
         </div>
         {/* Section how much does it cost to make own brand logo and title */}
-        <div className="flex items-end justify-center gap-[50px] py-[100px]">
+        <div className="w-full max-w-[1200px] flex items-end justify-between gap-[50px] py-[100px]">
           <div className="flex flex-col items-start justify-start gap-5 max-w-[400px]">
             <p className="text-lg leading-[25px] font-medium">
               Каждая задача по разработке фирменного стиля уникальна для нас —
@@ -136,17 +136,87 @@ function App() {
           </div>
         </div>
         {/* Section Example 1 - Amperia */}
-        <div className="flex flex-col justify-start item-start gap-[40px]">
-          <img className="w-full max-w-[1100px] h-full" src="/images/section-4.png" alt="Amperia design" />
+        <div className="flex flex-col justify-between item-start gap-[40px]">
+          <img
+            className="w-full max-w-[1200px] h-full"
+            src="/images/section-4.png"
+            alt="Amperia design"
+          />
           <div className="flex justify-start items-start gap-[50px]">
             <div className="flex flex-col justify-start items-start gap-2">
-              <h3 className="text-[55px] leading-[55px] font-medium">Amperia</h3>
+              <h3 className="text-[55px] leading-[55px] font-medium">
+                Amperia
+              </h3>
               <p className="text-lg font-medium">
                 Бранд красивых сувениров <br />и подарков для дома
               </p>
             </div>
-            <Button className="rounded-[40px]">Смотреть проект</Button>
+            <Button variant="outline" className="border-black rounded-[40px]">Смотреть проект</Button>
           </div>
+        </div>
+        {/* Section Example 2 - AQ.Lifecare */}
+        <div className="flex flex-col justify-between item-start gap-[40px] py-[100px]">
+          <img
+            className="w-full max-w-[1200px] h-full"
+            src="/images/section-5.png"
+            alt="Amperia design"
+          />
+          <div className="flex justify-start items-start gap-[50px]">
+            <div className="flex flex-col justify-start items-start gap-2">
+              <h3 className="text-[55px] leading-[55px] font-medium">
+                AQ.Lifecare
+              </h3>
+              <p className="text-lg font-medium">
+                Инновационная клиника <br />
+                внутривенной медицины
+              </p>
+            </div>
+            <Button variant="outline" className="border-black rounded-[40px]">Смотреть проект</Button>
+          </div>
+        </div>
+        {/* Section Example 3 - Vilate */}
+        <div className="flex flex-col justify-between item-start gap-[40px]">
+          <img
+            className="w-full max-w-[1200px] h-full"
+            src="/images/section-6.png"
+            alt="Amperia design"
+          />
+          <div className="flex justify-start items-start gap-[50px]">
+            <div className="flex flex-col justify-start items-start gap-2">
+              <h3 className="text-[55px] leading-[55px] font-medium">Vilate</h3>
+              <p className="text-lg font-medium">
+                Бренд натуральных и <br />
+                вкусных соусов
+              </p>
+            </div>
+            <Button variant="outline" className="border-black rounded-[40px]">Смотреть проект</Button>
+          </div>
+        </div>
+        {/* Section Example 4 - Coral Black */}
+        <div className="flex flex-col justify-between item-start gap-[40px] py-[100px]">
+          <img
+            className="w-full max-w-[1200px] h-full"
+            src="/images/section-7.png"
+            alt="Amperia design"
+          />
+          <div className="flex justify-start items-start gap-[50px]">
+            <div className="flex flex-col justify-start items-start gap-2">
+              <h3 className="text-[55px] leading-[55px] font-medium">
+                Coral Black
+              </h3>
+              <p className="text-lg font-medium">
+                Черная икра в современной <br />
+                инторпритации
+              </p>
+            </div>
+            <Button variant="outline" className="border-black rounded-[40px]">Смотреть проект</Button>
+          </div>
+        </div>
+        {/* Show more examples div */}
+        <div className="w-full h-full flex justify-center items-center">
+          <Button size="lg" className="rounded-[40px]">
+            Показать еще
+          </Button>
         </div>
       </div>
     </>
