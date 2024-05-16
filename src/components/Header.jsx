@@ -5,7 +5,7 @@ const Header = () => {
   let ulRef = useRef();
  
   return (
-    <header className="fixed bg-white/10 backdrop-blur-sm bg w-full p-2.5 flex justify-between items-center px-5 sm:px-[80px] md:px-[135px]">
+    <header className=" bg-white/10 backdrop-blur-sm bg w-full p-2.5 flex justify-between items-center px-5 sm:px-[80px] md:px-[135px]">
       <div className="flex items-center justify-center gap-[22px]">
         <img
           className="cursor-pointer"

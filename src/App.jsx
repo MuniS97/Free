@@ -29,7 +29,7 @@ function App() {
       </div>
       <div className="px-5 sm:px-[80px] md:px-[135px]">
         {/* Section about custom text */}
-        <div className="w-full flex flex-col items-start gap-5 pt-[50px] pb-[100px]">
+        <div className="w-full flex flex-col items-start justify-center gap-5 pt-[50px] pb-[100px]">
           <h2 className="text-4xl font-medium">Что такое фирменный стиль</h2>
           <div className="w-full flex items-center gap-[30px]">
             <img
@@ -37,15 +37,15 @@ function App() {
               src="/images/section-1.png"
               alt="tomatoes"
             />
-            <div>
-              <p className="text-lg font-medium">
+            <div className="max-w-[450px] w-full">
+              <p className="text-lg leading-[25px] font-medium">
                 Это набор тех уникальных «признаков», по которым клиент отличит
                 вас от других компаний. Фирменный стиль отражает миссию бренда,
                 ценности, является способом его идентификации, формирует
                 определённое восприятие в коммуникации с потребителями.
               </p>
               <br />
-              <p className="text-lg font-medium">
+              <p className="text-lg leading-[25px] font-medium">
                 В идеале разработка корпоративного стиля должна происходить
                 одновременно с созданием бизнеса и формированием его
                 фундаментальных идей. Есть и второй вариант: бизнес существует
@@ -55,6 +55,58 @@ function App() {
                 “говорить” с ним на одном языке.
               </p>
             </div>
+          </div>
+        </div>
+        {/* Section with steps for make brand */}
+        <div className="w-full flex flex-col items-start justify-center gap-[40px]">
+          <h2 className="text-[50px] leading-[55px] font-medium">
+            Название и логотип – важные составляющие фирменного стиля, но на
+            этом всё только начинается. Ниже основные элементы:
+          </h2>
+          <div className="flex justify-between items-start gap-5">
+            <div className="flex items-start justify-start gap-2 max-w-[250px]">
+              <h5 className="text-[55px] leading-[55px] font-medium">1</h5>
+              <p className="text-lg leading-[25px] font-medium pt-[25px]">Название <br /> компании</p>
+            </div>
+            <div className="flex items-start justify-start gap-2 max-w-[250px]">
+              <h5 className="text-[55px] leading-[55px] font-medium">2</h5>
+              <p className="text-lg leading-[25px] font-medium pt-[25px]">
+                Логотип – <br /> основной <br /> графический <br /> символ
+              </p>
+            </div>
+            <div className="flex items-start justify-start gap-2 max-w-[250px]">
+              <h5 className="text-[55px] leading-[55px] font-medium">3</h5>
+              <p className="text-lg leading-[25px] font-medium pt-[25px]">
+                Фирменные <br /> цвета всей <br /> коммуникации <br /> (онлайн и <br /> оффлайн)
+              </p>
+            </div>
+            <div className="flex items-start justify-start gap-2 max-w-[250px]">
+              <h5 className="text-[55px] leading-[55px] font-medium">4</h5>
+              <p className="text-lg leading-[25px] font-medium pt-[25px]">Шрифт</p>
+            </div>
+            <div className="flex items-start justify-start gap-2 max-w-[400px]">
+              <h5 className="text-[55px] leading-[55px] font-medium">5</h5>
+              <p className="text-lg leading-[25px] font-medium pt-[25px]">
+                Носители <br /> фирменного <br /> стиля <br /> <br /> <span className="leading-[22px]">
+                Этот набор варьируется в
+                зависимости от нужд и потребностей компании: визитные карточки,
+                фирменные бланки и прочая деловая документация, упаковка,
+                сувенирная продукция, брендинг автотранспорта.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Section how much does it cost to make own brand logo and title */}
+        <div className="flex items-end justify-center gap-[50px] py-[100px]">
+          <div className="flex flex-col items-start justify-start gap-5 max-w-[400px]">
+            <p className="text-lg leading-[25px] font-medium">Каждая задача по разработке фирменного стиля уникальна для нас — это новый вызов и новые эмоции. Мы принципиально не предлагаем вам стандартизированные пакеты “эконом”, “стандрат”, или “премиум”, мы не штампуем, мы - создаем.</p>
+            <p className="text-lg leading-[25px] font-medium">Стоимость разработки фирменного стиля в нашем агентстве начинается от 120 000 руб., финальную планку без брифинга определить невозможно - давайте созвонимся и обсудим ваш проект! </p>
+            <p className="text-lg leading-[25px] font-medium text-white p-[5px] bg-[#2B59C3] rounded-sm">Каждый клиент нашего агентства получает приятный бонус на финише проекта, о котором мы расскажем ниже ▼</p>
+          </div>
+          <div className="flex flex-col items-start justify-start gap-[15px]">
+            <h2 className="font-medium text-4xl">Сколько стоит фирменный стиль?</h2>
+            <img className="w-full max-w-[630px] h-full" src="/images/section-3.png" alt="examples-of-logos" />
           </div>
         </div>
       </div>
